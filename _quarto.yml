@@ -1,0 +1,78 @@
+project:
+  type: website
+
+website:
+  title: "Digital thinkning in Agri-Food"
+  site-url: "https://demeter.wiki"
+  google-analytics: " "
+  page-footer:
+    left: "Blog made with [Quarto](https://quarto.org/), by Michael Wang. License: [CC BY-SA 2.0](https://creativecommons.org/licenses/by-sa/2.0/)."
+    right:
+      - icon: github
+        href: https://github.com/
+      - icon: twitter
+        href: https://twitter.com/
+      - icon: envelope
+        href: https://github.com/
+  twitter-card:
+    creator: " "
+    card-style: summary_large_image
+  navbar:
+    title: "Digital thinkning in Agri-Food"
+    background: "#000000"
+    foreground: "#FFFFFF"
+    pinned: true
+    left:
+    - text: "Michael Wang"
+    right:
+      - about.qmd
+      - text: Posts
+        href: post/
+      - text: Talks
+        href: talk/
+      - text: Datamethods
+        href: datamethods.qmd
+      - text: News
+        href: https://github.com/
+      - text: Links
+        href: https://github.com/
+      - text: Bio
+        href: https://github.com/
+      - text: Publications
+        href: https://github.com/
+      - icon: github
+        href: https://github.com/
+      - icon: twitter
+        href: https://twitter.com/
+
+format:
+  html:
+    smooth-scroll: true
+    theme: [litera, styles.scss]
+    css: h.css
+    link-external-icon: false
+    link-external-newwindow: true
+    citations-hover: true
+    footnotes-hover: true
+    toc: true
+    toc-depth: 3
+    toc-title: Contents
+    toc-location: left
+    code-link: false
+    anchor-sections: true
+    code-tools: true
+    code-fold: true
+    code-block-bg: "#f1f3f5"
+    code-block-border-left: "#31BAE9"
+    reference-location: margin
+    fig-cap-location: margin
+
+comments:
+  hypothesis:
+    theme: clean
+    openSidebar: false
+    enableExperimentalNewNoteButton: true
+
+execute:
+  warning: false
+  message: false
