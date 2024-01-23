@@ -18,7 +18,7 @@ website:
     creator: " "
     card-style: summary_large_image
   navbar:
-    title: "Digital thinkning in Agri-Food"
+    title: "Digital thinking in Agri-Food"
     background: "#000000"
     foreground: "#FFFFFF"
     pinned: true
