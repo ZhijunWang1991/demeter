@@ -1,5 +1,5 @@
 ---
-title: "Digital thinkning in Agri-Food"
+title: "Digital thinking in Agri-Food"
 listing:
   - id: post
     contents: post/*/*.qmd
@@ -24,6 +24,7 @@ title-block-banner: false
 include-in-header: meta.html
 toc: true
 ---
+
 ## Posts
 
 ::: {#post}
@@ -33,4 +34,5 @@ toc: true
 
 ::: {#talk}
 :::
----
+
+------------------------------------------------------------------------
