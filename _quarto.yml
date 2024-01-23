@@ -2,7 +2,7 @@ project:
   type: website
 
 website:
-  title: "Digital thinkning in Agri-Food"
+  title: "Digital thinking in Agri-Food"
   site-url: "https://demeter.wiki"
   google-analytics: " "
   page-footer:
