@@ -1,5 +1,5 @@
 ---
-title: "Digital thinking in Agri-Food"
+title: "AI boosted Research trends"
 listing:
   - id: post
     contents: post/*/*.qmd

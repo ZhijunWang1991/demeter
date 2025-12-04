@@ -2,11 +2,11 @@ project:
   type: website
 
 website:
-  title: "Digital thinking in Agri-Food"
-  site-url: "https://demeter.wiki"
+  title: "NieuwMount Labs"
+  site-url: "nieuwmount.com"
   google-analytics: " "
   page-footer:
-    left: "Blog made with [Quarto](https://quarto.org/), by Michael Wang. License: [CC BY-SA 2.0](https://creativecommons.org/licenses/by-sa/2.0/)."
+    left: "Websit made with [Quarto](https://quarto.org/), by Michael. License: [CC BY-SA 2.0](https://creativecommons.org/licenses/by-sa/2.0/)."
     right:
       - icon: github
         href: https://github.com/
