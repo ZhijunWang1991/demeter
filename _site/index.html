@@ -75,7 +75,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <link href="site_libs/quarto-html/quarto-syntax-highlighting-37eea08aefeeee20ff55810ff984fec1.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-08003007c3b503d0b89cc40a21130617.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-c8c090a735a5a448d5bdfe281dff1f55.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -106,7 +106,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <script>
 
   window.document.addEventListener("DOMContentLoaded", function (_event) {
-    const listingTargetEl = window.document.querySelector('#listing-post .list');
+    const listingTargetEl = window.document.querySelector('#listing-AI tools .list');
     if (!listingTargetEl) {
       // No listing discovered, do not attach.
       return; 
@@ -115,11 +115,11 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
     const options = {
       valueNames: ['listing-date','listing-title','listing-description','listing-categories','listing-author','listing-reading-time',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
       
-      searchColumns: ["listing-categories"],
+      searchColumns: ["listing-date","listing-title","listing-author","listing-image","listing-description","listing-categories"],
     };
 
     window['quarto-listings'] = window['quarto-listings'] || {};
-    window['quarto-listings']['listing-post'] = new List('listing-post', options);
+    window['quarto-listings']['listing-AI tools'] = new List('listing-AI tools', options);
 
     if (window['quarto-listing-loaded']) {
       window['quarto-listing-loaded']();
@@ -272,7 +272,6 @@ window.Quarto = {
 };
 </script>
 
-<link rel="stylesheet" href="h.css">
 <meta name="twitter:title" content="AI boosted Research trends – NieuwMount Labs">
 <meta name="twitter:creator" content=" ">
 <meta name="twitter:card" content="summary_large_image">
@@ -285,6 +284,9 @@ window.Quarto = {
     <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
+    <a href="./index.html" class="navbar-brand navbar-brand-logo">
+    <img src="./logo.png" alt="" class="navbar-logo">
+    </a>
     <a class="navbar-brand" href="./index.html">
     <span class="navbar-title">Digital thinking in AI &amp; Research</span>
     </a>
@@ -296,9 +298,8 @@ window.Quarto = {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
-    <span class="nav-link">
-<span class="menu-text">Michael Wang</span>
-    </span>
+    <a class="nav-link active" href="./index.html" aria-current="page"> 
+<span class="menu-text">Michael Wang</span></a>
   </li>  
 </ul>
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
@@ -308,17 +309,17 @@ window.Quarto = {
 <span class="menu-text">AI tools</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./Academic prompt/"> <i class="bi bi-send" role="img">
+    <a class="nav-link" href="./academic prompt/"> <i class="bi bi-send" role="img">
 </i> 
 <span class="menu-text">Academic prompt</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./R/"> <i class="bi bi-calculator" role="img">
+    <a class="nav-link" href="./r/"> <i class="bi bi-calculator" role="img">
 </i> 
 <span class="menu-text">R</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./Python/"> <i class="bi bi-code-slash" role="img">
+    <a class="nav-link" href="./python/"> <i class="bi bi-code-slash" role="img">
 </i> 
 <span class="menu-text">Python</span></a>
   </li>  
@@ -333,7 +334,7 @@ window.Quarto = {
 <span class="menu-text">AI image prompt</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./Coffee/"> <i class="bi bi-cup-hot" role="img">
+    <a class="nav-link" href="./coffee/"> <i class="bi bi-cup-hot" role="img">
 </i> 
 <span class="menu-text">Coffee time</span></a>
   </li>  
@@ -357,15 +358,15 @@ window.Quarto = {
     <h2 id="toc-title">Contents</h2>
    
   <ul>
-  <li><a href="#posts" id="toc-posts" class="nav-link active" data-scroll-target="#posts">Posts</a></li>
-  <li><a href="#ai-prompt" id="toc-ai-prompt" class="nav-link" data-scroll-target="#ai-prompt">AI prompt</a></li>
+  <li><a href="#ai-tools" id="toc-ai-tools" class="nav-link active" data-scroll-target="#ai-tools">AI tools</a></li>
+  <li><a href="#image-prompt" id="toc-image-prompt" class="nav-link" data-scroll-target="#image-prompt">Image prompt</a></li>
   </ul>
 </nav>
 </nav>
 <div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-    <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-cloud"></div></div>
+    <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-cloud"><div class="category" data-category="YW5hbHlzaXM="><span class="quarto-category-count category-cloud-10">analysis</span></div><div class="category" data-category="Y29kZQ=="><span class="quarto-category-count category-cloud-10">code</span></div><div class="category" data-category="bmV3cw=="><span class="quarto-category-count category-cloud-10">news</span></div></div></div>
 <!-- main -->
 <main class="content column-body" id="quarto-document-content">
 
@@ -388,18 +389,15 @@ window.Quarto = {
 </header>
 
 
-<section id="posts" class="level2">
-<h2 class="anchored" data-anchor-id="posts">Posts</h2>
-<div id="listing-post" class="quarto-listing quarto-listing-container-default">
-<div class="list quarto-listing-default">
+<section id="ai-tools" class="level2">
+<h2 class="anchored" data-anchor-id="ai-tools">AI tools</h2>
+<div id="AI-tools">
 
 </div>
-<div class="listing-no-matching d-none">No matching items</div>
-</div>
 </section>
-<section id="ai-prompt" class="level2">
-<h2 class="anchored" data-anchor-id="ai-prompt">AI prompt</h2>
-<div id="talk">
+<section id="image-prompt" class="level2">
+<h2 class="anchored" data-anchor-id="image-prompt">Image prompt</h2>
+<div id="image-prompt">
 
 </div>
 <hr>
@@ -410,7 +408,41 @@ window.Quarto = {
 
 </section>
 
-<div class="quarto-listing quarto-listing-container-default" id="listing-AI image prompt">
+<div class="quarto-listing quarto-listing-container-default" id="listing-AI tools">
+<div class="list quarto-listing-default">
+<div class="quarto-post image-right" data-index="0" data-categories="bmV3cyUyQ2NvZGUlMkNhbmFseXNpcw==" data-listing-date-sort="1704841200000" data-listing-file-modified-sort="1764856366631" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="9">
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="./AI-tools/post-with-code/index.html" class="no-external">Post With Code</a>
+</h3>
+<div class="listing-categories">
+
+<div class="listing-category" onclick="window.quartoListingCategory('bmV3cw=='); return false;">news</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('Y29kZQ=='); return false;">code</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('YW5hbHlzaXM='); return false;">analysis</div>
+
+</div>
+<div class="delink listing-description"><a href="./AI-tools/post-with-code/index.html" class="no-external">
+This is a post with executable code.
+</a></div>
+</div>
+<div class="metadata">
+<a href="./AI-tools/post-with-code/index.html" class="no-external">
+<div class="listing-date">
+Jan 10, 2024
+</div>
+<div class="listing-author">
+Harlow Malloc
+</div>
+<div class="listing-reading-time">1 min</div>
+</a>
+</div>
+</div>
+</div>
+<div class="listing-no-matching d-none">No matching items</div>
+</div><div class="quarto-listing quarto-listing-container-default" id="listing-AI image prompt">
 <div class="list quarto-listing-default">
 
 </div>
@@ -544,7 +576,7 @@ window.Quarto = {
     }
       var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
       var mailtoRegex = new RegExp(/^mailto:/);
-        var filterRegex = new RegExp("nieuwmount\.com");
+        var filterRegex = new RegExp("https:\/\/nieuwmount\.com");
       var isInternal = (href) => {
           return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
       }
@@ -879,8 +911,8 @@ window.Quarto = {
 <div class="sourceCode" id="cb1" data-shortcodes="false"><pre class="sourceCode markdown code-with-copy"><code class="sourceCode markdown"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="co">---</span></span>
 <span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a><span class="an">title:</span><span class="co"> "AI boosted Research trends"</span></span>
 <span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a><span class="an">listing:</span></span>
-<span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a><span class="co">  - id: post</span></span>
-<span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a><span class="co">    contents: post/*/*.qmd</span></span>
+<span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a><span class="co">  - id: AI tools</span></span>
+<span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a><span class="co">    contents: AI-tools/*/*.qmd</span></span>
 <span id="cb1-6"><a href="#cb1-6" aria-hidden="true" tabindex="-1"></a><span class="co">    sort: "date desc"</span></span>
 <span id="cb1-7"><a href="#cb1-7" aria-hidden="true" tabindex="-1"></a><span class="co">    type: default</span></span>
 <span id="cb1-8"><a href="#cb1-8" aria-hidden="true" tabindex="-1"></a><span class="co">    fields: [date, title, description, categories, author, reading-time]</span></span>
@@ -889,7 +921,7 @@ window.Quarto = {
 <span id="cb1-11"><a href="#cb1-11" aria-hidden="true" tabindex="-1"></a><span class="co">    filter-ui: false</span></span>
 <span id="cb1-12"><a href="#cb1-12" aria-hidden="true" tabindex="-1"></a><span class="co">    page-size: 3</span></span>
 <span id="cb1-13"><a href="#cb1-13" aria-hidden="true" tabindex="-1"></a><span class="co">  - id: AI image prompt</span></span>
-<span id="cb1-14"><a href="#cb1-14" aria-hidden="true" tabindex="-1"></a><span class="co">    contents: AI image prompt/*/*.qmd</span></span>
+<span id="cb1-14"><a href="#cb1-14" aria-hidden="true" tabindex="-1"></a><span class="co">    contents: image-prompt/*/*.qmd</span></span>
 <span id="cb1-15"><a href="#cb1-15" aria-hidden="true" tabindex="-1"></a><span class="co">    sort: "date desc"</span></span>
 <span id="cb1-16"><a href="#cb1-16" aria-hidden="true" tabindex="-1"></a><span class="co">    type: default</span></span>
 <span id="cb1-17"><a href="#cb1-17" aria-hidden="true" tabindex="-1"></a><span class="co">    fields: [date, title, description, categories, author]</span></span>
@@ -898,7 +930,7 @@ window.Quarto = {
 <span id="cb1-20"><a href="#cb1-20" aria-hidden="true" tabindex="-1"></a><span class="co">    filter-ui: false</span></span>
 <span id="cb1-21"><a href="#cb1-21" aria-hidden="true" tabindex="-1"></a><span class="co">    page-size: 3</span></span>
 <span id="cb1-22"><a href="#cb1-22" aria-hidden="true" tabindex="-1"></a><span class="co">  - id: Coffee time</span></span>
-<span id="cb1-23"><a href="#cb1-23" aria-hidden="true" tabindex="-1"></a><span class="co">    contents: Coffee time/*/*.qmd</span></span>
+<span id="cb1-23"><a href="#cb1-23" aria-hidden="true" tabindex="-1"></a><span class="co">    contents: coffee-time/*/*.qmd</span></span>
 <span id="cb1-24"><a href="#cb1-24" aria-hidden="true" tabindex="-1"></a><span class="co">    sort: "date desc"</span></span>
 <span id="cb1-25"><a href="#cb1-25" aria-hidden="true" tabindex="-1"></a><span class="co">    type: default</span></span>
 <span id="cb1-26"><a href="#cb1-26" aria-hidden="true" tabindex="-1"></a><span class="co">    fields: [date, title, description, categories, author]</span></span>
@@ -913,14 +945,14 @@ window.Quarto = {
 <span id="cb1-35"><a href="#cb1-35" aria-hidden="true" tabindex="-1"></a><span class="an">toc:</span><span class="co"> true</span></span>
 <span id="cb1-36"><a href="#cb1-36" aria-hidden="true" tabindex="-1"></a><span class="co">---</span></span>
 <span id="cb1-37"><a href="#cb1-37" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-38"><a href="#cb1-38" aria-hidden="true" tabindex="-1"></a><span class="fu">## Posts</span></span>
+<span id="cb1-38"><a href="#cb1-38" aria-hidden="true" tabindex="-1"></a><span class="fu">## AI tools</span></span>
 <span id="cb1-39"><a href="#cb1-39" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-40"><a href="#cb1-40" aria-hidden="true" tabindex="-1"></a>::: {#post}</span>
+<span id="cb1-40"><a href="#cb1-40" aria-hidden="true" tabindex="-1"></a>::: {#AI-tools}</span>
 <span id="cb1-41"><a href="#cb1-41" aria-hidden="true" tabindex="-1"></a>:::</span>
 <span id="cb1-42"><a href="#cb1-42" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-43"><a href="#cb1-43" aria-hidden="true" tabindex="-1"></a><span class="fu">## AI prompt</span></span>
+<span id="cb1-43"><a href="#cb1-43" aria-hidden="true" tabindex="-1"></a><span class="fu">## Image prompt</span></span>
 <span id="cb1-44"><a href="#cb1-44" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-45"><a href="#cb1-45" aria-hidden="true" tabindex="-1"></a>::: {#talk}</span>
+<span id="cb1-45"><a href="#cb1-45" aria-hidden="true" tabindex="-1"></a>::: {#image-prompt}</span>
 <span id="cb1-46"><a href="#cb1-46" aria-hidden="true" tabindex="-1"></a>:::</span>
 <span id="cb1-47"><a href="#cb1-47" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb1-48"><a href="#cb1-48" aria-hidden="true" tabindex="-1"></a>------------------------------------------------------------------------</span></code><button title="Copy to Clipboard" class="code-copy-button" data-in-quarto-modal=""><i class="bi"></i></button></pre></div>

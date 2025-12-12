@@ -1,8 +1,8 @@
 ---
 title: "AI boosted Research trends"
 listing:
-  - id: post
-    contents: post/*/*.qmd
+  - id: AI tools
+    contents: AI-tools/*/*.qmd
     sort: "date desc"
     type: default
     fields: [date, title, description, categories, author, reading-time]
@@ -11,7 +11,7 @@ listing:
     filter-ui: false
     page-size: 3
   - id: AI image prompt
-    contents: AI image prompt/*/*.qmd
+    contents: image-prompt/*/*.qmd
     sort: "date desc"
     type: default
     fields: [date, title, description, categories, author]
@@ -20,7 +20,7 @@ listing:
     filter-ui: false
     page-size: 3
   - id: Coffee time
-    contents: Coffee time/*/*.qmd
+    contents: coffee-time/*/*.qmd
     sort: "date desc"
     type: default
     fields: [date, title, description, categories, author]
@@ -35,14 +35,14 @@ include-in-header: meta.html
 toc: true
 ---
 
-## Posts
+## AI tools
 
-::: {#post}
+::: {#AI-tools}
 :::
 
-## AI prompt
+## Image prompt
 
-::: {#talk}
+::: {#image-prompt}
 :::
 
 ------------------------------------------------------------------------

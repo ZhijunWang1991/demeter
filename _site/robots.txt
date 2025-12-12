@@ -1,1 +1,1 @@
-Sitemap: nieuwmount.com/sitemap.xml
+Sitemap: https://nieuwmount.com/sitemap.xml

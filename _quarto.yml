@@ -3,7 +3,7 @@ project:
 
 website:
   title: "NieuwMount Labs"
-  site-url: "nieuwmount.com"
+  site-url: "https://nieuwmount.com"
   google-analytics: " "
   page-footer:
     left: "Websit made with [Quarto](https://quarto.org/), by Michael. License: [CC BY-SA 2.0](https://creativecommons.org/licenses/by-sa/2.0/)."
@@ -19,24 +19,27 @@ website:
     card-style: summary_large_image
   navbar:
     title: "Digital thinking in AI & Research"
+    logo: "logo.png"
     background: "#000000"
     foreground: "#FFFFFF"
     pinned: true
     left:
-    - text: "Michael Wang"
+      - text: "Michael Wang"
+        href: index.qmd
+        
     right:
       - text: AI tools
         icon: card-checklist
         href: AI-tools/
       - text: Academic prompt
         icon: send
-        href: Academic prompt/
+        href: academic prompt/
       - text: R
         icon: calculator
-        href: R/
+        href: r/
       - text: Python
         icon: code-slash
-        href: Python/
+        href: python/
       - text: AI news
         icon: newspaper
         href: news/
@@ -45,7 +48,7 @@ website:
         href: image-prompt/
       - text: Coffee time
         icon: cup-hot
-        href: Coffee/
+        href: coffee/
       - text: About
         icon: info-circle
         href: about.qmd
@@ -53,15 +56,14 @@ website:
 format:
   html:
     smooth-scroll: true
-    theme: [litera, styles.scss]
-    css: h.css
+    theme: [litera, styles.css]
     link-external-icon: false
     link-external-newwindow: true
     citations-hover: true
     footnotes-hover: true
     toc: true
     toc-depth: 3
-    toc-title: Contents
+    toc-title: "Contents"
     toc-location: left
     code-link: false
     anchor-sections: true
