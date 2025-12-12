@@ -10,8 +10,8 @@ listing:
     sort-ui: false
     filter-ui: false
     page-size: 3
-  - id: talk
-    contents: talk/*/*.qmd
+  - id: AI image prompt
+    contents: AI image prompt/*/*.qmd
     sort: "date desc"
     type: default
     fields: [date, title, description, categories, author]
@@ -19,6 +19,16 @@ listing:
     sort-ui: false
     filter-ui: false
     page-size: 3
+  - id: Coffee time
+    contents: Coffee time/*/*.qmd
+    sort: "date desc"
+    type: default
+    fields: [date, title, description, categories, author]
+    categories: cloud
+    sort-ui: false
+    filter-ui: false
+    page-size: 3
+    
 page-layout: full
 title-block-banner: false
 include-in-header: meta.html

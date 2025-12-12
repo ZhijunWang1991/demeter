@@ -10,40 +10,45 @@ website:
     right:
       - icon: github
         href: https://github.com/
-      - icon: twitter
-        href: https://twitter.com/
+      - icon: X
+        href: https://x.com/
       - icon: envelope
         href: https://github.com/
   twitter-card:
     creator: " "
     card-style: summary_large_image
   navbar:
-    title: "Digital thinking in Agri-Food"
+    title: "Digital thinking in AI & Research"
     background: "#000000"
     foreground: "#FFFFFF"
     pinned: true
     left:
     - text: "Michael Wang"
     right:
-      - about.qmd
-      - text: Posts
-        href: post/
-      - text: Talks
-        href: talk/
-      - text: Datamethods
-        href: datamethods.qmd
-      - text: News
-        href: https://github.com/
-      - text: Links
-        href: https://github.com/
-      - text: Bio
-        href: https://github.com/
-      - text: Publications
-        href: https://github.com/
-      - icon: github
-        href: https://github.com/
-      - icon: twitter
-        href: https://twitter.com/
+      - text: AI tools
+        icon: card-checklist
+        href: AI-tools/
+      - text: Academic prompt
+        icon: send
+        href: Academic prompt/
+      - text: R
+        icon: calculator
+        href: R/
+      - text: Python
+        icon: code-slash
+        href: Python/
+      - text: AI news
+        icon: newspaper
+        href: news/
+      - text: AI image prompt
+        icon: image
+        href: image-prompt/
+      - text: Coffee time
+        icon: cup-hot
+        href: Coffee/
+      - text: About
+        icon: info-circle
+        href: about.qmd
 
 format:
   html:
