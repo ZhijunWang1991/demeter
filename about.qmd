@@ -21,7 +21,7 @@ about:
 
 Nieuwmount is an independent hub for **AI and research** on tools, workflows, and templates that are actually useful in day-to-day scientific work.
 
-### What you’ll find here
+## What you’ll find here
 
 * **AI Tools:** curated tools with research-focused notes and practical use cases
 * **AI News & Analysis:** what changed, why it matters, and how it affects research workflows
@@ -30,7 +30,7 @@ Nieuwmount is an independent hub for **AI and research** on tools, workflows, an
 * **Academic Prompts:** prompt templates for writing, revision, peer review, and study planning
 * **AI Image Prompts:** a tagged gallery of prompts for figures and research visuals (prompt + negative prompt + platform)
 
-### Who runs it
+## Who runs it
 
 I’m **Michael**, a researcher and AI practitioner working across **data visualization**, **research project management**, and **modeling/analysis**. I also spend a lot of time on **prompt optimization** and **AI-assisted figure generation**, testing what works in real research settings. Nieuwmount is where I publish the workflows, code, and prompt libraries I wish I had clean, reusable, and easy to apply.
 
