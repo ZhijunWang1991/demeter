@@ -1,5 +1,6 @@
 ---
 title: "Nanobanana: Turn a Casual Photo into a LinkedIn-Style Headshot"
+image: 20251212_L1.png
 description: "Convert a casual portrait into a US-style corporate LinkedIn headshot: blue textured studio background, soft studio lighting, natural smile, and realistic skin tones."
 platform: "Nanobanana"
 keywords: [LinkedIn, headshot, corporate, studio, portrait, professional photo]
@@ -11,13 +12,9 @@ format:
 ---
 
 <img src="images/20251212_originalprofile.png" alt="" width="30%"/>
-
 <img src="images/20251212_L1.png" alt="" width="30%"/>
-
 <img src="images/20251212_L2.png" alt="" width="30%"/>
-
 <img src="images/20251212_L3.png" alt="" width="30%"/>
-
 <img src="images/20251212_L4.png" alt="" width="30%"/>
 
 

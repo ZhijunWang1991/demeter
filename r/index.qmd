@@ -1,0 +1,13 @@
+---
+title: "R code"
+listing:
+  contents: "*.qmd"
+  sort: "date desc"
+  type: default
+  fields: [date, title, description, categories]
+  page-size: 12
+page-layout: full
+---
+
+Welcome to the R code snippets and examples for various research data.
+

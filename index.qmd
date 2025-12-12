@@ -13,12 +13,15 @@ listing:
   - id: AI image prompt
     contents: image-prompt/*/*.qmd
     sort: "date desc"
-    type: default
-    fields: [date, title, description, categories, author]
-    categories: cloud
+    type: grid
+    grid-columns: 3
+    grid-item-border: true
+    grid-item-align: center
+    image-height: 180px
+    image-placeholder: "images/placeholder.jpg"  # 可选：没 image 时用的默认图
     sort-ui: false
     filter-ui: false
-    page-size: 3
+    page-size: 6
   - id: Coffee time
     contents: coffee-time/*/*.qmd
     sort: "date desc"
@@ -35,13 +38,7 @@ include-in-header: meta.html
 toc: true
 ---
 
-## AI tools
-
-::: {#AI-tools}
-:::
-
 ## Image prompt
-
 ::: {#image-prompt}
 :::
 

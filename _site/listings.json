@@ -2,7 +2,33 @@
   {
     "listing": "/index.html",
     "items": [
-      "/AI-tools/post-with-code/index.html"
+      "/image-prompt/20251212/LinkedinProfile.html"
     ]
+  },
+  {
+    "listing": "/image-prompt/index.html",
+    "items": [
+      "/image-prompt/LinkedinProfile.html"
+    ]
+  },
+  {
+    "listing": "/r/index.html",
+    "items": []
+  },
+  {
+    "listing": "/news/index.html",
+    "items": []
+  },
+  {
+    "listing": "/AI-tools/index.html",
+    "items": []
+  },
+  {
+    "listing": "/coffee-time/index.html",
+    "items": []
+  },
+  {
+    "listing": "/python/index.html",
+    "items": []
   }
 ]

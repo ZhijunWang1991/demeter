@@ -1,0 +1,12 @@
+---
+title: "Coffee time"
+listing:
+  contents: "*.qmd"
+  sort: "date desc"
+  type: default
+  fields: [date, title, description, categories]
+  page-size: 12
+page-layout: full
+---
+
+The recent off-line activities will be updated here.

@@ -1,0 +1,15 @@
+---
+title: "Image prompt"
+
+listing:
+  contents: "*.qmd"
+  sort: "date desc"
+  type: default
+  fields: [date, title, description, categories]
+  page-size: 12
+page-layout: full
+---
+
+Welcome to the prompt gallery.
+
+

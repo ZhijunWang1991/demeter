@@ -6,7 +6,7 @@ website:
   site-url: "https://nieuwmount.com"
   google-analytics: " "
   page-footer:
-    left: "Websit made with [Quarto](https://quarto.org/), by Michael. License: [CC BY-SA 2.0](https://creativecommons.org/licenses/by-sa/2.0/)."
+    left: "2026 © NieuwMount.com"
     right:
       - icon: github
         href: https://github.com/
@@ -33,7 +33,7 @@ website:
         href: AI-tools/
       - text: Academic prompt
         icon: send
-        href: academic prompt/
+        href: academic-prompt/
       - text: R
         icon: calculator
         href: r/
@@ -48,7 +48,7 @@ website:
         href: image-prompt/
       - text: Coffee time
         icon: cup-hot
-        href: coffee/
+        href: coffee-time/
       - text: About
         icon: info-circle
         href: about.qmd
