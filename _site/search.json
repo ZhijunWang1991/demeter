@@ -18,7 +18,7 @@
     "href": "about.html",
     "title": "About",
     "section": "",
-    "text": "About this blog"
+    "text": "Nieuwmount is an independent hub for AI and research on tools, workflows, and templates that are actually useful in day-to-day scientific work."
   },
   {
     "objectID": "posts/welcome/index.html",
@@ -54,5 +54,75 @@
     "title": "Welcome To My Blog",
     "section": "",
     "text": "This is the first post in a Quarto blog. Welcome!\n\nSince this post doesn’t specify an explicit image, the first image in the post will be used in the listing page of posts."
+  },
+  {
+    "objectID": "AI-tools/post-with-code/index.html",
+    "href": "AI-tools/post-with-code/index.html",
+    "title": "Post With Code",
+    "section": "",
+    "text": "This is a post with executable code.\n\n\nCode\n1 + 1\n\n\n[1] 2"
+  },
+  {
+    "objectID": "about.html#about-nieuwmount",
+    "href": "about.html#about-nieuwmount",
+    "title": "About",
+    "section": "",
+    "text": "Nieuwmount is an independent hub for AI and research on tools, workflows, and templates that are actually useful in day-to-day scientific work."
+  },
+  {
+    "objectID": "about.html#what-youll-find-here",
+    "href": "about.html#what-youll-find-here",
+    "title": "About",
+    "section": "What you’ll find here",
+    "text": "What you’ll find here\n\nAI Tools: curated tools with research-focused notes and practical use cases\nAI News & Analysis: what changed, why it matters, and how it affects research workflows\nR code for Research: reproducible, code-first tutorials for data analysis and visualization\nPython for Research: modeling, plotting, and publication-ready analysis pipelines\nAcademic Prompts: prompt templates for writing, revision, peer review, and study planning\nAI Image Prompts: a tagged gallery of prompts for figures and research visuals (prompt + negative prompt + platform)"
+  },
+  {
+    "objectID": "about.html#who-runs-it",
+    "href": "about.html#who-runs-it",
+    "title": "About",
+    "section": "Who runs it",
+    "text": "Who runs it\nI’m Michael, a researcher and AI practitioner working across data visualization, research project management, and modeling/analysis. I also spend a lot of time on prompt optimization and AI-assisted figure generation, testing what works in real research settings. Nieuwmount is where I publish the workflows, code, and prompt libraries I wish I had clean, reusable, and easy to apply."
+  },
+  {
+    "objectID": "Academic-prompt/welcome/index.html",
+    "href": "Academic-prompt/welcome/index.html",
+    "title": "Welcome To My Blog",
+    "section": "",
+    "text": "This is the first post in a Quarto blog. Welcome!\n\nSince this post doesn’t specify an explicit image, the first image in the post will be used in the listing page of posts."
+  },
+  {
+    "objectID": "index.html#ai-prompt",
+    "href": "index.html#ai-prompt",
+    "title": "AI boosted Research trends",
+    "section": "AI prompt",
+    "text": "AI prompt"
+  },
+  {
+    "objectID": "image-prompt/LinkedinProfile.html#use-case",
+    "href": "image-prompt/LinkedinProfile.html#use-case",
+    "title": "Nanobanana: Turn a Casual Photo into a LinkedIn-Style Headshot",
+    "section": "Use case",
+    "text": "Use case\nTurn a casual portrait into a clean, American-style professional headshot suitable for LinkedIn, corporate profiles, or personal websites—while keeping the person looking like themselves."
+  },
+  {
+    "objectID": "image-prompt/LinkedinProfile.html#prompt",
+    "href": "image-prompt/LinkedinProfile.html#prompt",
+    "title": "Nanobanana: Turn a Casual Photo into a LinkedIn-Style Headshot",
+    "section": "Prompt",
+    "text": "Prompt\nConvert the uploaded portrait into a US-style corporate professional headshot (studio corporate photography) while preserving the original person’s facial features and identity. Do not change facial structure, age, ethnicity, or hairstyle.\nComposition: mid-torso / half-body portrait, subject centered, level camera angle, natural proportions, clean and elegant framing.\nBackground: blue textured studio backdrop with a subtle gradient, no patterns, no text.\nLighting: soft natural studio lighting (flattering key light + gentle fill), catchlights in both eyes, no harsh shadows.\nDetail & realism: high-definition clarity, sharp focus on face, natural skin texture, realistic skin tones, minimal retouching.\nOutfit & styling: sleeveless white dress, minimalist and elegant design, modern professional look, simple gold jewelry (small earrings + delicate necklace), neat grooming.\nExpression: relaxed, confident, and natural, bright engaging eyes, genuine smile."
+  },
+  {
+    "objectID": "image-prompt/LinkedinProfile.html#negative-prompt-recommended",
+    "href": "image-prompt/LinkedinProfile.html#negative-prompt-recommended",
+    "title": "Nanobanana: Turn a Casual Photo into a LinkedIn-Style Headshot",
+    "section": "Negative prompt (recommended)",
+    "text": "Negative prompt (recommended)\ncartoon, anime, CGI, illustration, plastic skin, over-retouched, heavy makeup, face distortion, identity change, extra teeth, asymmetrical eyes, blurry, low resolution, harsh flash, strong shadows, busy background, text, watermark, logo."
+  },
+  {
+    "objectID": "image-prompt/LinkedinProfile.html#notes",
+    "href": "image-prompt/LinkedinProfile.html#notes",
+    "title": "Nanobanana: Turn a Casual Photo into a LinkedIn-Style Headshot",
+    "section": "Notes",
+    "text": "Notes\nIf the outfit is inconsistent, add: “no blazer, no jacket, no collar, no patterned clothing.” If the face drifts, repeat: “match the original identity exactly.”"
   }
 ]

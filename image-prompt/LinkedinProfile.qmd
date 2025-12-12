@@ -1,0 +1,42 @@
+---
+title: "Nanobanana: Turn a Casual Photo into a LinkedIn-Style Headshot"
+image: ../ai-prompts/2025-12-linkedin-headshot.jpg
+description: "Convert a casual portrait into a US-style corporate LinkedIn headshot: blue textured studio background, soft studio lighting, natural smile, and realistic skin tones."
+platform: "Nanobanana"
+keywords: [LinkedIn, headshot, corporate, studio, portrait, professional photo]
+categories: [AI Image Prompt, Headshot, Corporate]
+date: 2025-12-12
+format:
+  html:
+    page-layout: full
+---
+
+<img src="images/20251212_originalprofile.png" alt="" width="30%"/>
+<img src="images/20251212_L1.png" alt="" width="30%"/>
+<img src="images/20251212_L2.png" alt="" width="30%"/>
+<img src="images/20251212_L3.png" alt="" width="30%"/>
+<img src="images/20251212_L4.png" alt="" width="30%"/>
+
+
+## Use case
+
+Turn a casual portrait into a clean, American-style professional headshot suitable for LinkedIn, corporate profiles, or personal websites—while keeping the person looking like themselves.
+
+## Prompt
+
+Convert the uploaded portrait into a **US-style corporate professional headshot** (studio corporate photography) while **preserving the original person’s facial features and identity**. Do **not** change facial structure, age, ethnicity, or hairstyle.
+
+**Composition:** mid-torso / half-body portrait, subject centered, level camera angle, natural proportions, clean and elegant framing.\
+**Background:** blue textured studio backdrop with a subtle gradient, no patterns, no text.\
+**Lighting:** soft natural studio lighting (flattering key light + gentle fill), catchlights in both eyes, no harsh shadows.\
+**Detail & realism:** high-definition clarity, sharp focus on face, natural skin texture, realistic skin tones, minimal retouching.\
+**Outfit & styling:** sleeveless white dress, minimalist and elegant design, modern professional look, simple gold jewelry (small earrings + delicate necklace), neat grooming.\
+**Expression:** relaxed, confident, and natural, bright engaging eyes, genuine smile.
+
+## Negative prompt (recommended)
+
+cartoon, anime, CGI, illustration, plastic skin, over-retouched, heavy makeup, face distortion, identity change, extra teeth, asymmetrical eyes, blurry, low resolution, harsh flash, strong shadows, busy background, text, watermark, logo.
+
+## Notes
+
+If the outfit is inconsistent, add: “no blazer, no jacket, no collar, no patterned clothing.” If the face drifts, repeat: “match the original identity exactly.”
