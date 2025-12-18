@@ -151,7 +151,7 @@
     "href": "image-prompt/index.html",
     "title": "Image prompt",
     "section": "",
-    "text": "Welcome to the prompt gallery.\n\n\n\n\n\n\n\n\n\n\n\nNanobanana: Turn a Casual Photo into a LinkedIn-Style Headshot\n\n\n\nAI Image Prompt\n\nHeadshot\n\nCorporate\n\n\n\nConvert a casual portrait into a US-style corporate LinkedIn headshot: blue textured studio background, soft studio lighting, natural smile, and realistic skin tones.\n\n\n\n\n\nDec 12, 2025\n\n\n\n\n\nNo matching items"
+    "text": "Welcome to the prompt gallery.\n\n\n\n\n\n\n\n\n\n\n\nCreata a SCI-style graphical abstract using Google AI\n\n\n\nAI Image Prompt\n\n\n\nA graphical summary, written in scientific language, that fully demonstrates the experimental approach and results..\n\n\n\n\n\nDec 18, 2025\n\n\n\n\n\n\n\nNanobanana: Turn a Casual Photo into a LinkedIn-Style Headshot\n\n\n\nAI Image Prompt\n\nHeadshot\n\nCorporate\n\n\n\nConvert a casual portrait into a US-style corporate LinkedIn headshot: blue textured studio background, soft studio lighting, natural smile, and realistic skin tones.\n\n\n\n\n\nDec 12, 2025\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "r/index.html",
@@ -187,5 +187,40 @@
     "title": "Python code",
     "section": "",
     "text": "Python code snippets and examples for various applications.\n\n\n\n\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "image-prompt/20251218/Gabstract.html#all-in-one-prompt",
+    "href": "image-prompt/20251218/Gabstract.html#all-in-one-prompt",
+    "title": "Creata a SCI-style graphical abstract using Google AI",
+    "section": "All-in-one Prompt",
+    "text": "All-in-one Prompt\nA high-quality, publication-ready graphical abstract in a Nature-style scientific illustration aesthetic. The figure follows a clean left-to-right, top-to-bottom workflow, with a white background, subtle grey separators, thin directional arrows, and restrained typography. No bold headers or flat icon style; all elements are rendered as semi-realistic scientific illustrations.\n\nPanel 1: \nExtraction and CharacterizationA stylized illustration of marine fish-derived raw material transitioning to a supercritical CO₂ extraction system, shown as a realistic laboratory apparatus rather than a cartoon machine.The extract is represented by a transparent amber vial.Adjacent is a GC–MS chromatogram with well-resolved peaks, labeled minimally.Below, accurate chemical structures of EPA and DHA are shown in line-bond format, clearly indicating unsaturated fatty acid chains.\n\n\nPanel 2:\nIn Vitro Antioxidant AssaysA 96-well microplate viewed from above replaces test tubes.Two assay conditions are shown:DPPH assay: wells transition from deep purple to pale yellowABTS assay: wells transition from blue-green to colorlessTo the side, free radicals are represented schematically using chemical structures (DPPH• and ABTS⁺•) with unpaired electrons, which are reduced upon interaction with antioxidant lipid molecules.No cartoon “spikes”; reduction is illustrated through electron transfer arrows and color change.\n\n\nPanel 3:\nIn Vivo Diabetic Mouse ModelA realistic laboratory mouse labeled “STZ-induced diabetic mouse” receives oral gavage via a feeding needle.Downstream arrows indicate sample collection:A 96-well ELISA plate with reduced absorbance intensityHistological sections of pancreatic tissue (H&E staining) shown as circular micrographs, comparing inflamed/disorganized islets versus structurally preserved islets after treatmentIcons are avoided; tissues appear as microscope-style images.\n\n\nPanel 4:\nMechanism and OutcomeA simplified but biologically accurate NF-κB signaling schematic shows inhibition of NF-κB nuclear translocation by lipid-derived bioactive compounds.Downstream effects are indicated subtly (reduced inflammatory signaling).Final outcomes include:A healthier pancreatic morphologyA blood glucose curve showing significant reduction over time compared with the diabetic controlOverall StyleMinimalist, neutral color palette, soft shadows, accurate proportions, and balanced spacing. No thick arrows, no bright headers, no flat icons. Designed to meet the visual and conceptual standards of Nature, Nature Food, or Nature Communications graphical abstracts."
+  },
+  {
+    "objectID": "image-prompt/20251212/LinkedinProfile.html#use-case",
+    "href": "image-prompt/20251212/LinkedinProfile.html#use-case",
+    "title": "Nanobanana: Turn a Casual Photo into a LinkedIn-Style Headshot",
+    "section": "Use case",
+    "text": "Use case\nTurn a casual portrait into a clean, American-style professional headshot suitable for LinkedIn, corporate profiles, or personal websites—while keeping the person looking like themselves."
+  },
+  {
+    "objectID": "image-prompt/20251212/LinkedinProfile.html#prompt",
+    "href": "image-prompt/20251212/LinkedinProfile.html#prompt",
+    "title": "Nanobanana: Turn a Casual Photo into a LinkedIn-Style Headshot",
+    "section": "Prompt",
+    "text": "Prompt\nConvert the uploaded portrait into a US-style corporate professional headshot (studio corporate photography) while preserving the original person’s facial features and identity. Do not change facial structure, age, ethnicity, or hairstyle.\nComposition: mid-torso / half-body portrait, subject centered, level camera angle, natural proportions, clean and elegant framing.\nBackground: blue textured studio backdrop with a subtle gradient, no patterns, no text.\nLighting: soft natural studio lighting (flattering key light + gentle fill), catchlights in both eyes, no harsh shadows.\nDetail & realism: high-definition clarity, sharp focus on face, natural skin texture, realistic skin tones, minimal retouching.\nOutfit & styling: sleeveless white dress, minimalist and elegant design, modern professional look, simple gold jewelry (small earrings + delicate necklace), neat grooming.\nExpression: relaxed, confident, and natural, bright engaging eyes, genuine smile."
+  },
+  {
+    "objectID": "image-prompt/20251212/LinkedinProfile.html#negative-prompt-recommended",
+    "href": "image-prompt/20251212/LinkedinProfile.html#negative-prompt-recommended",
+    "title": "Nanobanana: Turn a Casual Photo into a LinkedIn-Style Headshot",
+    "section": "Negative prompt (recommended)",
+    "text": "Negative prompt (recommended)\ncartoon, anime, CGI, illustration, plastic skin, over-retouched, heavy makeup, face distortion, identity change, extra teeth, asymmetrical eyes, blurry, low resolution, harsh flash, strong shadows, busy background, text, watermark, logo."
+  },
+  {
+    "objectID": "image-prompt/20251212/LinkedinProfile.html#notes",
+    "href": "image-prompt/20251212/LinkedinProfile.html#notes",
+    "title": "Nanobanana: Turn a Casual Photo into a LinkedIn-Style Headshot",
+    "section": "Notes",
+    "text": "Notes\nIf the outfit is inconsistent, add: “no blazer, no jacket, no collar, no patterned clothing.” If the face drifts, repeat: “match the original identity exactly.”"
   }
 ]

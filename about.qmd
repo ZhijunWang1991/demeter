@@ -5,12 +5,12 @@ about:
   template: jolla
   image-shape: rectangle
   links:
-    - icon: twitter
-      text: Twitter
-      href: https://X.com
+    - icon: x
+      text: X
+      href: https://x.com/nieuwmount
     - icon: linkedin
       text: LinkedIn
-      href: https://linkedin.com
+      href: https://www.linkedin.com/in/zhijunwang1991/
     - icon: github
       text: Github
       href: https://github.com
@@ -20,6 +20,10 @@ about:
 ### About Nieuwmount
 
 Nieuwmount is an independent hub for **AI and research** on tools, workflows, and templates that are actually useful in day-to-day scientific work.
+
+### Objective
+
+Nieuwmount aims to build a **semi-automated AI research workflow** (AI research agents) that offloads routine academic work, writing, figure generation, formatting, and basic analyses, so researchers can devote more time to creativity, insight, and scientific discovery.
 
 ### What you’ll find here
 
@@ -32,5 +36,5 @@ Nieuwmount is an independent hub for **AI and research** on tools, workflows, an
 
 ### Who runs it
 
-I’m **Michael**, a researcher and AI practitioner working across **data visualization**, **research project management**, and **modeling/analysis**. I also spend a lot of time on **prompt optimization** and **AI-assisted figure generation**, testing what works in real research settings. Nieuwmount is where I publish the workflows, code, and prompt libraries I wish I had clean, reusable, and easy to apply.
+I’m **Michael**, a researcher and AI practitioner working across **Food Safety**, **data visualization**, **modeling/analysis**, and **research project management** . I also spend a lot of time on **prompt optimization** and **AI-assisted figure generation**. This webiste aims to explore an  Nieuwmount is where I publish the workflows, code, and prompt libraries I wish I had clean, reusable, and easy to apply.
 

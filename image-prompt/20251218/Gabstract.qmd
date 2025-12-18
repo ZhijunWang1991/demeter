@@ -1,0 +1,35 @@
+---
+title: "Creata a SCI-style graphical abstract using Google AI"
+image: 20251218_P1.png
+description: "A graphical summary, written in scientific language, that fully demonstrates the experimental approach and results.."
+platform: "Nanobanana"
+keywords: [SCI, Paper, graphical abstract, Research]
+categories: [AI Image Prompt]
+date: 2025-12-18
+format:
+  html:
+    page-layout: full
+---
+
+<img src="images/20251218_P1.png" alt="" width="80%" />
+
+
+## All-in-one Prompt
+
+A high-quality, publication-ready graphical abstract in a Nature-style scientific illustration aesthetic. The figure follows a clean left-to-right, top-to-bottom workflow, with a white background, subtle grey separators, thin directional arrows, and restrained typography. No bold headers or flat icon style; all elements are rendered as semi-realistic scientific illustrations.
+
+### **Panel 1: **
+
+Extraction and CharacterizationA stylized illustration of marine fish-derived raw material transitioning to a supercritical CO₂ extraction system, shown as a realistic laboratory apparatus rather than a cartoon machine.The extract is represented by a transparent amber vial.Adjacent is a GC–MS chromatogram with well-resolved peaks, labeled minimally.Below, accurate chemical structures of EPA and DHA are shown in line-bond format, clearly indicating unsaturated fatty acid chains.
+
+### **Panel 2:** 
+
+In Vitro Antioxidant AssaysA 96-well microplate viewed from above replaces test tubes.Two assay conditions are shown:DPPH assay: wells transition from deep purple to pale yellowABTS assay: wells transition from blue-green to colorlessTo the side, free radicals are represented schematically using chemical structures (DPPH• and ABTS⁺•) with unpaired electrons, which are reduced upon interaction with antioxidant lipid molecules.No cartoon “spikes”; reduction is illustrated through electron transfer arrows and color change.
+
+### **Panel 3:** 
+
+In Vivo Diabetic Mouse ModelA realistic laboratory mouse labeled “STZ-induced diabetic mouse” receives oral gavage via a feeding needle.Downstream arrows indicate sample collection:A 96-well ELISA plate with reduced absorbance intensityHistological sections of pancreatic tissue (H&E staining) shown as circular micrographs, comparing inflamed/disorganized islets versus structurally preserved islets after treatmentIcons are avoided; tissues appear as microscope-style images.
+
+### **Panel 4:** 
+
+Mechanism and OutcomeA simplified but biologically accurate NF-κB signaling schematic shows inhibition of NF-κB nuclear translocation by lipid-derived bioactive compounds.Downstream effects are indicated subtly (reduced inflammatory signaling).Final outcomes include:A healthier pancreatic morphologyA blood glucose curve showing significant reduction over time compared with the diabetic controlOverall StyleMinimalist, neutral color palette, soft shadows, accurate proportions, and balanced spacing. No thick arrows, no bright headers, no flat icons. Designed to meet the visual and conceptual standards of Nature, Nature Food, or Nature Communications graphical abstracts.
