@@ -4,7 +4,7 @@
     "href": "index.html",
     "title": "AI boosted Research trends",
     "section": "",
-    "text": "No matching items"
+    "text": "Nieuwmount aims to build a semi-automated AI research workflow (AI research agents) that offloads routine academic work, writing, figure generation, formatting, and basic analyses, so researchers can devote more time to creativity, insight, and scientific discovery."
   },
   {
     "objectID": "posts/post-with-code/index.html",
@@ -222,5 +222,12 @@
     "title": "Nanobanana: Turn a Casual Photo into a LinkedIn-Style Headshot",
     "section": "Notes",
     "text": "Notes\nIf the outfit is inconsistent, add: “no blazer, no jacket, no collar, no patterned clothing.” If the face drifts, repeat: “match the original identity exactly.”"
+  },
+  {
+    "objectID": "index.html#part-of-work",
+    "href": "index.html#part-of-work",
+    "title": "AI boosted Research trends",
+    "section": "Part of work",
+    "text": "Part of work\n\nImage prompt"
   }
 ]

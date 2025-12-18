@@ -38,7 +38,14 @@ include-in-header: meta.html
 toc: true
 ---
 
-## Image prompt
+<img src="AI agent pathway.png" alt="" width="100%" />
+
+
+Nieuwmount aims to build a **semi-automated AI research workflow** (AI research agents) that offloads routine academic work, writing, figure generation, formatting, and basic analyses, so researchers can devote more time to creativity, insight, and scientific discovery.
+
+## Part of work
+
+### Image prompt
 ::: {#image-prompt}
 :::
 
