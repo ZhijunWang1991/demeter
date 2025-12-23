@@ -5,6 +5,7 @@ website:
   title: "NieuwMount Labs"
   site-url: "https://nieuwmount.com"
   google-analytics: "G-XEQWJYE7S4"
+  cookie-consent: true
   page-footer:
     left: "2026 © NieuwMount.com"
     right:
