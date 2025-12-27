@@ -2,6 +2,7 @@
   {
     "listing": "/index.html",
     "items": [
+      "/AI-tools/20251227/01_researcher_tools.html",
       "/image-prompt/20251218/Gabstract.html",
       "/image-prompt/20251212/LinkedinProfile.html"
     ]
@@ -23,7 +24,9 @@
   },
   {
     "listing": "/AI-tools/index.html",
-    "items": []
+    "items": [
+      "/AI-tools/20251227/01_researcher_tools.html"
+    ]
   },
   {
     "listing": "/coffee-time/index.html",

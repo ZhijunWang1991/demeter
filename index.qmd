@@ -43,10 +43,12 @@ toc: true
 
 Nieuwmount aims to build a **semi-automated AI research workflow** (AI research agents) that offloads routine academic work, writing, figure generation, formatting, and basic analyses, so researchers can devote more time to creativity, insight, and scientific discovery.
 
-## Part of work
+## Recent work
 
-### Image prompt
+
+::: {#AI-tools}
+
 ::: {#image-prompt}
-:::
+
 
 ------------------------------------------------------------------------
